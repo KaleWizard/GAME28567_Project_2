@@ -2,6 +2,14 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] float maxSpeed = 3; // Tiles per second
+    [SerializeField] float framesToMaxSpeed = 5;
+    [SerializeField] float framesToStill = 3;
+
+    Rigidbody2D rb;
+
+    FacingDirection facing = FacingDirection.right;
+
     public enum FacingDirection
     {
         left, right
@@ -10,16 +18,12 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        // The input from the player needs to be determined and
-        // then passed in the to the MovementUpdate which should
-        // manage the actual movement of the character.
-        Vector2 playerInput = new Vector2();
+        Vector2 playerInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         MovementUpdate(playerInput);
     }
 
@@ -30,7 +34,7 @@ public class PlayerController : MonoBehaviour
 
     public bool IsWalking()
     {
-        return false;
+        return rb.linearVelocityX != 0 && IsGrounded();
     }
     public bool IsGrounded()
     {
@@ -39,6 +43,15 @@ public class PlayerController : MonoBehaviour
 
     public FacingDirection GetFacingDirection()
     {
-        return FacingDirection.left;
+        if (rb.linearVelocityX == 0)                // Return current facing direction if not moving
+        {
+            return facing;
+        } else if (rb.linearVelocityX > 0)          // If player is moving right, look right
+        {
+            return facing = FacingDirection.right;
+        } else                                      // Otherwise player is facing left, so look left
+        {
+            return facing = FacingDirection.left;
+        }
     }
 }
