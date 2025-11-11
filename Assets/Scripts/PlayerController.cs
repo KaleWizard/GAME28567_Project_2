@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections.Generic;
 
 public class PlayerController : MonoBehaviour
 {
@@ -79,11 +80,22 @@ public class PlayerController : MonoBehaviour
 
     public bool IsWalking()
     {
-        return rb.linearVelocityX != 0 && IsGrounded();
+        return Mathf.Abs(rb.linearVelocityX) > 0.05f && IsGrounded();
     }
 
     public bool IsGrounded()
     {
+        // Get colliders for a small box cast below the player
+        List<RaycastHit2D> hits = new();
+        rb.Cast(Vector2.down, hits, 0.05f);
+
+        // Check if any of the hits were ground
+        //      If so return true
+        //      Otherwise, return false
+        foreach (RaycastHit2D hit in hits)
+            if (hit.collider.tag == "Ground") 
+                return true;
+
         return false;
     }
 
