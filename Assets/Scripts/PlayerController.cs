@@ -14,6 +14,9 @@ public class PlayerController : MonoBehaviour
 
     private float jumpProgress = 0;
 
+    [SerializeField] float coyoteTime = 1.25f;
+    private float coyoteProgress = 0;
+
     [Header("Horizontal Movement")]
     [SerializeField] float maxHorizontalSpeed = 3; // Tiles per second
 
@@ -107,12 +110,14 @@ public class PlayerController : MonoBehaviour
 
     private void Jump()
     {
-        if (IsGrounded())
+        if (IsGrounded() || coyoteProgress < coyoteTime)
         {
             // Set initial vertical velocity
             rb.linearVelocityY = 2 * apexHeight / apexTime;
             // Reset jump progress
             jumpProgress = 0;
+            // Ensure coyote time doesn't retrigger
+            coyoteProgress += coyoteTime;
         }
     }
 
@@ -120,6 +125,14 @@ public class PlayerController : MonoBehaviour
     {
         // Player isn't jumping, so set jumpProgress to "completed" time-value
         jumpProgress = apexTime;
+
+        // Increase coyote time progress
+        coyoteProgress += Time.fixedDeltaTime;
+        // If player is on the ground, reset coyote time
+        if (IsGrounded())
+        {
+            coyoteProgress = 0;
+        }
     }
 
     private void Fall()

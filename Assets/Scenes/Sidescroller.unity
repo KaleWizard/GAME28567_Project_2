@@ -1711,6 +1711,7 @@ MonoBehaviour:
   apexTime: 0.5
   fallTime: 0.4
   terminalVelocity: -16
+  coyoteTime: 0.25
   maxHorizontalSpeed: 6
   framesToSpeed: 12
   accelModifier: 0.4
