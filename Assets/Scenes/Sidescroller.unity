@@ -315,7 +315,7 @@ GameObject:
   - component: {fileID: 1054579206}
   - component: {fileID: 1054579210}
   - component: {fileID: 1054579209}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GroundTilemap
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1718,6 +1718,9 @@ MonoBehaviour:
   decelModifier: 1.8
   framesToTurn: 2
   turnModifier: 0.5
+  raycastCount: 12
+  raycastDist: 0.05
+  raycastMargins: 0.01
 --- !u!4 &1433354315
 Transform:
   m_ObjectHideFlags: 0

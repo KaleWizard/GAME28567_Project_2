@@ -26,7 +26,14 @@ public class PlayerController : MonoBehaviour
     [SerializeField] int framesToTurn = 2;
     [SerializeField] float turnModifier = 0.5f;
 
+    [Header("Ground Check")]
+    [SerializeField] int raycastCount = 12;
+    [SerializeField] float raycastDist = 0.05f;
+    [SerializeField] float raycastMargins = 0.01f;
+
     Rigidbody2D rb;
+
+    BoxCollider2D collider;
 
     FacingDirection facing = FacingDirection.right; // Default facing direction
 
@@ -39,6 +46,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        collider = GetComponent<BoxCollider2D>();
         ascendGravity = -2 * apexHeight / (apexTime * apexTime);
         fallGravity = -2 * apexHeight / (fallTime * fallTime);
     }
@@ -137,17 +145,20 @@ public class PlayerController : MonoBehaviour
 
     public bool IsGrounded()
     {
-        // Get colliders for a small box cast below the player
-        List<RaycastHit2D> hits = new();
-        rb.Cast(Vector2.down, hits, 0.05f);
+        // Get position of first raycast (bottom-left of collider) and offset for each raycast
+        Vector2 startPos = (Vector2) transform.position + collider.offset + Vector2.one * raycastMargins - collider.size / 2;
+        Vector2 offset = Vector2.right * (collider.size.x - 2 * raycastMargins) / (raycastCount - 1);
 
         // Check if any of the hits were ground
         //      If so return true
         //      Otherwise, return false
-        foreach (RaycastHit2D hit in hits)
-            if (hit.collider.tag == "Ground") 
+        for (int i = 0; i < raycastCount; i++)
+        {
+            Vector2 start = startPos + i * offset;
+            RaycastHit2D hit = Physics2D.Linecast(start, start + Vector2.down * raycastDist, LayerMask.GetMask("Ground"));
+            if (hit)
                 return true;
-
+        }
         return false;
     }
 
