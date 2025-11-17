@@ -4,6 +4,16 @@ using System.Collections.Generic;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("Vertical Movement")]
+    [SerializeField] float apexHeight = 3;
+    [SerializeField] float apexTime = 1;
+    [SerializeField] float fallTime = 0.75f;
+    [SerializeField] float terminalVelocity = -8;
+    private float ascendGravity;
+    private float fallGravity;
+
+    private float jumpProgress = 0;
+
     [Header("Horizontal Movement")]
     [SerializeField] float maxHorizontalSpeed = 3; // Tiles per second
 
@@ -29,6 +39,8 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        ascendGravity = -2 * apexHeight / (apexTime * apexTime);
+        fallGravity = -2 * apexHeight / (fallTime * fallTime);
     }
 
     void FixedUpdate()
@@ -39,13 +51,20 @@ public class PlayerController : MonoBehaviour
 
     private void MovementUpdate(Vector2 playerInput)
     {
+        // Horizontal Movement
         if (playerInput.x != 0)
-        {
             Accelerate(playerInput);
-        } else
-        {
+        else
             Decelerate();
-        }
+
+        // Vertical Movement
+        if (playerInput.y == 1)
+            Jump();
+        else
+            NotJumping();
+
+        Fall();
+        
     }
 
     private void Accelerate(Vector2 playerInput)
@@ -76,6 +95,39 @@ public class PlayerController : MonoBehaviour
 
         // Set rigidbody's velocity
         rb.linearVelocityX = newSpeed * sign;
+    }
+
+    private void Jump()
+    {
+        if (IsGrounded())
+        {
+            // Set initial vertical velocity
+            rb.linearVelocityY = 2 * apexHeight / apexTime;
+            // Reset jump progress
+            jumpProgress = 0;
+        }
+    }
+
+    private void NotJumping()
+    {
+        // Player isn't jumping, so set jumpProgress to "completed" time-value
+        jumpProgress = apexTime;
+    }
+
+    private void Fall()
+    {
+        // If player is still jumping, use ascension gravity
+        if (jumpProgress < apexTime)
+            rb.linearVelocityY += ascendGravity * Time.fixedDeltaTime;
+        // Otherwise use fast-falling gravity
+        else
+            rb.linearVelocityY += fallGravity * Time.fixedDeltaTime;
+
+        // Increase jump time
+        jumpProgress += Time.fixedDeltaTime;
+
+        // Limit falling speed to terminalVelocity
+        rb.linearVelocityY = Mathf.Max(rb.linearVelocityY, terminalVelocity);
     }
 
     public bool IsWalking()
