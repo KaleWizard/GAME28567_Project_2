@@ -1,0 +1,3406 @@
+fileFormatVersion: 2
+guid: 7735d01ea4939524a99c12128b10c4ad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1596075635722336734
+    second: ShovelKnight_spritesheet_2_0
+  - first:
+      213: -8380796104916771220
+    second: ShovelKnight_spritesheet_2_1
+  - first:
+      213: 8609006419751362776
+    second: ShovelKnight_spritesheet_2_2
+  - first:
+      213: 7511711445017287511
+    second: ShovelKnight_spritesheet_2_3
+  - first:
+      213: 3748905842305408591
+    second: ShovelKnight_spritesheet_2_4
+  - first:
+      213: 8320167824801193712
+    second: ShovelKnight_spritesheet_2_5
+  - first:
+      213: -8967666973867884625
+    second: ShovelKnight_spritesheet_2_6
+  - first:
+      213: -8383416275111079425
+    second: ShovelKnight_spritesheet_2_7
+  - first:
+      213: 219106316840121404
+    second: ShovelKnight_spritesheet_2_8
+  - first:
+      213: 4577307029741929071
+    second: ShovelKnight_spritesheet_2_9
+  - first:
+      213: -5752720632175336233
+    second: ShovelKnight_spritesheet_2_10
+  - first:
+      213: -1737773777064650715
+    second: ShovelKnight_spritesheet_2_11
+  - first:
+      213: -7672908526723730285
+    second: ShovelKnight_spritesheet_2_12
+  - first:
+      213: -464600554409299312
+    second: ShovelKnight_spritesheet_2_13
+  - first:
+      213: -179802492301337730
+    second: ShovelKnight_spritesheet_2_14
+  - first:
+      213: 4596672908129836528
+    second: ShovelKnight_spritesheet_2_15
+  - first:
+      213: 3400512568283307991
+    second: ShovelKnight_spritesheet_2_16
+  - first:
+      213: -8610630593187070834
+    second: ShovelKnight_spritesheet_2_17
+  - first:
+      213: 1328220583858002083
+    second: ShovelKnight_spritesheet_2_18
+  - first:
+      213: 3287679356548091967
+    second: ShovelKnight_spritesheet_2_19
+  - first:
+      213: 2680573189007049313
+    second: ShovelKnight_spritesheet_2_20
+  - first:
+      213: -4125030064295772972
+    second: ShovelKnight_spritesheet_2_21
+  - first:
+      213: -8847292796905402838
+    second: ShovelKnight_spritesheet_2_22
+  - first:
+      213: 6204676807484954358
+    second: ShovelKnight_spritesheet_2_23
+  - first:
+      213: 8050242229429620343
+    second: ShovelKnight_spritesheet_2_24
+  - first:
+      213: -3275918884498216965
+    second: ShovelKnight_spritesheet_2_25
+  - first:
+      213: 9222754168199732734
+    second: ShovelKnight_spritesheet_2_26
+  - first:
+      213: 7893896870843301174
+    second: ShovelKnight_spritesheet_2_27
+  - first:
+      213: 7788405835912704399
+    second: ShovelKnight_spritesheet_2_28
+  - first:
+      213: -1565199279085667037
+    second: ShovelKnight_spritesheet_2_29
+  - first:
+      213: 3058823489404434834
+    second: ShovelKnight_spritesheet_2_30
+  - first:
+      213: -1295423625171763978
+    second: ShovelKnight_spritesheet_2_31
+  - first:
+      213: 1819313077421515872
+    second: ShovelKnight_spritesheet_2_32
+  - first:
+      213: -2868341019204060580
+    second: ShovelKnight_spritesheet_2_33
+  - first:
+      213: 2727218693625870879
+    second: ShovelKnight_spritesheet_2_34
+  - first:
+      213: 2138295981165909930
+    second: ShovelKnight_spritesheet_2_35
+  - first:
+      213: 9155412731561922662
+    second: ShovelKnight_spritesheet_2_36
+  - first:
+      213: 7885380810012827951
+    second: ShovelKnight_spritesheet_2_37
+  - first:
+      213: 2194147162598589655
+    second: ShovelKnight_spritesheet_2_38
+  - first:
+      213: 2492045386036680166
+    second: ShovelKnight_spritesheet_2_39
+  - first:
+      213: 51676471880354915
+    second: ShovelKnight_spritesheet_2_40
+  - first:
+      213: 7457081406871147533
+    second: ShovelKnight_spritesheet_2_41
+  - first:
+      213: 6614069558936199903
+    second: ShovelKnight_spritesheet_2_42
+  - first:
+      213: 2196918022372284707
+    second: ShovelKnight_spritesheet_2_43
+  - first:
+      213: -516193264433680334
+    second: ShovelKnight_spritesheet_2_44
+  - first:
+      213: 7381797572713800774
+    second: ShovelKnight_spritesheet_2_45
+  - first:
+      213: 7267982020595884948
+    second: ShovelKnight_spritesheet_2_46
+  - first:
+      213: 2459846919934405098
+    second: ShovelKnight_spritesheet_2_47
+  - first:
+      213: -5984910354196445186
+    second: ShovelKnight_spritesheet_2_48
+  - first:
+      213: 5159671284281563649
+    second: ShovelKnight_spritesheet_2_49
+  - first:
+      213: 4702095361095161413
+    second: ShovelKnight_spritesheet_2_50
+  - first:
+      213: -4462226078129530008
+    second: ShovelKnight_spritesheet_2_51
+  - first:
+      213: 617365429938252553
+    second: ShovelKnight_spritesheet_2_52
+  - first:
+      213: 6932844585525940180
+    second: ShovelKnight_spritesheet_2_53
+  - first:
+      213: -3147401945211754178
+    second: ShovelKnight_spritesheet_2_54
+  - first:
+      213: -6052343493767928446
+    second: ShovelKnight_spritesheet_2_55
+  - first:
+      213: -7398418909504212074
+    second: ShovelKnight_spritesheet_2_56
+  - first:
+      213: -8315751164588700706
+    second: ShovelKnight_spritesheet_2_57
+  - first:
+      213: -7621407856678838911
+    second: ShovelKnight_spritesheet_2_58
+  - first:
+      213: 5490349678986430986
+    second: ShovelKnight_spritesheet_2_59
+  - first:
+      213: 790521476147376769
+    second: ShovelKnight_spritesheet_2_60
+  - first:
+      213: -3381395504786662157
+    second: ShovelKnight_spritesheet_2_61
+  - first:
+      213: -368370232621987280
+    second: ShovelKnight_spritesheet_2_62
+  - first:
+      213: 5498283453802325744
+    second: ShovelKnight_spritesheet_2_63
+  - first:
+      213: -2987302791045538794
+    second: ShovelKnight_spritesheet_2_64
+  - first:
+      213: -2476723754837598303
+    second: ShovelKnight_spritesheet_2_65
+  - first:
+      213: -2509184513751104377
+    second: ShovelKnight_spritesheet_2_66
+  - first:
+      213: -8156432190984367066
+    second: ShovelKnight_spritesheet_2_67
+  - first:
+      213: -8388406948749010650
+    second: ShovelKnight_spritesheet_2_68
+  - first:
+      213: 6437841819063928082
+    second: ShovelKnight_spritesheet_2_69
+  - first:
+      213: 1592555147100293723
+    second: ShovelKnight_spritesheet_2_70
+  - first:
+      213: 3587742462004475112
+    second: ShovelKnight_spritesheet_2_71
+  - first:
+      213: 3031132909777645620
+    second: ShovelKnight_spritesheet_2_72
+  - first:
+      213: -7120792182896961003
+    second: ShovelKnight_spritesheet_2_73
+  - first:
+      213: -1023637142694607607
+    second: ShovelKnight_spritesheet_2_74
+  - first:
+      213: -115733350976893332
+    second: ShovelKnight_spritesheet_2_75
+  - first:
+      213: -522305304811052305
+    second: ShovelKnight_spritesheet_2_76
+  - first:
+      213: 85272742837020613
+    second: ShovelKnight_spritesheet_2_77
+  - first:
+      213: -4361360431209490953
+    second: ShovelKnight_spritesheet_2_78
+  - first:
+      213: 3387363908429452893
+    second: ShovelKnight_spritesheet_2_79
+  - first:
+      213: -1099789216102849058
+    second: ShovelKnight_spritesheet_2_80
+  - first:
+      213: -226185072690671423
+    second: ShovelKnight_spritesheet_2_81
+  - first:
+      213: -673211865779608249
+    second: ShovelKnight_spritesheet_2_82
+  - first:
+      213: 3414503990271126258
+    second: ShovelKnight_spritesheet_2_83
+  - first:
+      213: 7099686115003404542
+    second: ShovelKnight_spritesheet_2_84
+  - first:
+      213: 4348612620368624089
+    second: ShovelKnight_spritesheet_2_85
+  - first:
+      213: -7464056208288275056
+    second: ShovelKnight_spritesheet_2_86
+  - first:
+      213: -2632689072884489400
+    second: ShovelKnight_spritesheet_2_87
+  - first:
+      213: 4621387082707223645
+    second: ShovelKnight_spritesheet_2_88
+  - first:
+      213: 4525888022229876500
+    second: ShovelKnight_spritesheet_2_89
+  - first:
+      213: 1715538323903351009
+    second: ShovelKnight_spritesheet_2_90
+  - first:
+      213: -6269112420310939339
+    second: ShovelKnight_spritesheet_2_91
+  - first:
+      213: 3419787498365776546
+    second: ShovelKnight_spritesheet_2_92
+  - first:
+      213: -4089747920331344244
+    second: ShovelKnight_spritesheet_2_93
+  - first:
+      213: 1576854711382195335
+    second: ShovelKnight_spritesheet_2_94
+  - first:
+      213: 6854958268439321211
+    second: ShovelKnight_spritesheet_2_95
+  - first:
+      213: 376727392073800765
+    second: ShovelKnight_spritesheet_2_96
+  - first:
+      213: -1648913622861906618
+    second: ShovelKnight_spritesheet_2_97
+  - first:
+      213: -947868879765250746
+    second: ShovelKnight_spritesheet_2_98
+  - first:
+      213: 1930930708363737373
+    second: ShovelKnight_spritesheet_2_99
+  - first:
+      213: -6501969776944607322
+    second: ShovelKnight_spritesheet_2_100
+  - first:
+      213: 7937476326157874161
+    second: ShovelKnight_spritesheet_2_101
+  - first:
+      213: 992554303017574330
+    second: ShovelKnight_spritesheet_2_102
+  - first:
+      213: 8206329642606199100
+    second: ShovelKnight_spritesheet_2_103
+  - first:
+      213: 5267983430890526943
+    second: ShovelKnight_spritesheet_2_104
+  - first:
+      213: 8878814227177929850
+    second: ShovelKnight_spritesheet_2_105
+  - first:
+      213: 1618243024796682454
+    second: ShovelKnight_spritesheet_2_106
+  - first:
+      213: 1799004200102616958
+    second: ShovelKnight_spritesheet_2_107
+  - first:
+      213: 6680634793383546055
+    second: ShovelKnight_spritesheet_2_108
+  - first:
+      213: 3264646911225466082
+    second: ShovelKnight_spritesheet_2_109
+  - first:
+      213: 4052629638268569295
+    second: ShovelKnight_spritesheet_2_110
+  - first:
+      213: -2611644426126007998
+    second: ShovelKnight_spritesheet_2_111
+  - first:
+      213: 3154184789957385891
+    second: ShovelKnight_spritesheet_2_112
+  - first:
+      213: -5551732839262268601
+    second: ShovelKnight_spritesheet_2_113
+  - first:
+      213: 5776255956220005431
+    second: ShovelKnight_spritesheet_2_114
+  - first:
+      213: -5675053842854480882
+    second: ShovelKnight_spritesheet_2_115
+  - first:
+      213: -6479702881504101112
+    second: ShovelKnight_spritesheet_2_116
+  - first:
+      213: 6030735575805309116
+    second: ShovelKnight_spritesheet_2_117
+  - first:
+      213: -2231335472060062730
+    second: ShovelKnight_spritesheet_2_118
+  - first:
+      213: -3374430032143516989
+    second: ShovelKnight_spritesheet_2_119
+  - first:
+      213: -5848109283200946716
+    second: ShovelKnight_spritesheet_2_120
+  - first:
+      213: -3035270141660635461
+    second: ShovelKnight_spritesheet_2_121
+  - first:
+      213: -4812042010024107154
+    second: ShovelKnight_spritesheet_2_122
+  - first:
+      213: -7016249082645869349
+    second: ShovelKnight_spritesheet_2_123
+  - first:
+      213: -8873864744143672503
+    second: ShovelKnight_spritesheet_2_124
+  - first:
+      213: -1940606544284225966
+    second: ShovelKnight_spritesheet_2_125
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1055
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9b2e59556662610800000000000000
+      internalID: 1596075635722336734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1002
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e557f885e61bb80800000000000000
+      internalID: -8380796104916771220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1002
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0665ee9b5597770800000000000000
+      internalID: 8609006419751362776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_3
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1036
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75bdd7fa2c5fe3860800000000000000
+      internalID: 7511711445017287511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_4
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1036
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e1003400ac60430800000000000000
+      internalID: 3748905842305408591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_5
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1036
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fed8e4fd8c277370800000000000000
+      internalID: 8320167824801193712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_6
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1036
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf3a9666627c8380800000000000000
+      internalID: -8967666973867884625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_7
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1034
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff196c5a05f18ab80800000000000000
+      internalID: -8383416275111079425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_8
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1034
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34bc47c80c6a0300800000000000000
+      internalID: 219106316840121404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_9
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1034
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f628aafed7cd58f30800000000000000
+      internalID: 4577307029741929071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_10
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1034
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4e023701b3a20b0800000000000000
+      internalID: -5752720632175336233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_11
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1032
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5289216f4ff22e7e0800000000000000
+      internalID: -1737773777064650715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_12
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1032
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394f096095a548590800000000000000
+      internalID: -7672908526723730285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_13
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1032
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092fbffd1486d89f0800000000000000
+      internalID: -464600554409299312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1032
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b16acf596318df0800000000000000
+      internalID: -179802492301337730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_15
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1032
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd9dbdd7a9aacf30800000000000000
+      internalID: 4596672908129836528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_16
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1032
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df17c60a2c013f20800000000000000
+      internalID: 3400512568283307991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_17
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1017
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c39f8b815e08880800000000000000
+      internalID: -8610630593187070834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_18
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1017
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8d7347599ce6210800000000000000
+      internalID: 1328220583858002083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_19
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1006
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f301f66b4fe20ad20800000000000000
+      internalID: 3287679356548091967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_20
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1006
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1628335fc1f433520800000000000000
+      internalID: 2680573189007049313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 963
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dcf7d90303f0c6c0800000000000000
+      internalID: -4125030064295772972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_22
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 964
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ec490831a183580800000000000000
+      internalID: -8847292796905402838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_23
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 989
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6de30cea07b1650800000000000000
+      internalID: 6204676807484954358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_24
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 989
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e4009d7a438bf60800000000000000
+      internalID: 8050242229429620343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_25
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 963
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf76d7091299982d0800000000000000
+      internalID: -3275918884498216965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 964
+        width: 47
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd5c4e3d0ecdff70800000000000000
+      internalID: 9222754168199732734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_27
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 950
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63dbe206161cc8d60800000000000000
+      internalID: 7893896870843301174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 943
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81f720d7d9f51c60800000000000000
+      internalID: 7788405835912704399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_29
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 946
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32db6676c8b474ae0800000000000000
+      internalID: -1565199279085667037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_30
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 946
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299729cd1cf137a20800000000000000
+      internalID: 3058823489404434834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_31
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 946
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fcfcfb831bb50ee0800000000000000
+      internalID: -1295423625171763978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_32
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 946
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064aee2da9f7f3910800000000000000
+      internalID: 1819313077421515872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_33
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 925
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5af8a74a0b9138d0800000000000000
+      internalID: -2868341019204060580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_34
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 944
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1aff52d3f609d520800000000000000
+      internalID: 2727218693625870879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_35
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 944
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa71a0e9dd0ccad10800000000000000
+      internalID: 2138295981165909930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_36
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 944
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66056d43f5f8e0f70800000000000000
+      internalID: 9155412731561922662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_37
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 944
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f212f7371108e6d60800000000000000
+      internalID: 7885380810012827951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_38
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 946
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4ce93283d237e10800000000000000
+      internalID: 2194147162598589655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_39
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 950
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e51ede3316859220800000000000000
+      internalID: 2492045386036680166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_40
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 950
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c8ca53a7797b000800000000000000
+      internalID: 51676471880354915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_41
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 932
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0499bdb700ec7760800000000000000
+      internalID: 7457081406871147533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_42
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 950
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2ed149835e9cb50800000000000000
+      internalID: 6614069558936199903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_43
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 950
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32957243d450d7e10800000000000000
+      internalID: 2196918022372284707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_44
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 950
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2303bfdf5fc16d8f0800000000000000
+      internalID: -516193264433680334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_45
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 937
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644627d28c9617660800000000000000
+      internalID: 7381797572713800774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_46
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 936
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4932b8be32f0dd460800000000000000
+      internalID: 7267982020595884948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_47
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 931
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae96788adb1232220800000000000000
+      internalID: 2459846919934405098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_48
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 934
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef740950eb351fca0800000000000000
+      internalID: -5984910354196445186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_49
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 941
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ad26922b5da9740800000000000000
+      internalID: 5159671284281563649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_50
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 937
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546d61271d2314140800000000000000
+      internalID: 4702095361095161413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_51
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 906
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86bda99160df212c0800000000000000
+      internalID: -4462226078129530008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_52
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 931
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b631c6692519800800000000000000
+      internalID: 617365429938252553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_53
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 930
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df83433b69663060800000000000000
+      internalID: 6932844585525940180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_54
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 913
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39a7424b9e2254d0800000000000000
+      internalID: -3147401945211754178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_55
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 930
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285e05bb8a1c10ca0800000000000000
+      internalID: -6052343493767928446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_56
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 927
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 693f7774339835990800000000000000
+      internalID: -7398418909504212074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_57
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 930
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb4622ef54889c80800000000000000
+      internalID: -8315751164588700706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_58
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 892
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d594e2fe15b3690800000000000000
+      internalID: -7621407856678838911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_59
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 892
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a8aa4a1f3a13c40800000000000000
+      internalID: 5490349678986430986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_60
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 913
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182f41d181f78fa00800000000000000
+      internalID: 790521476147376769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_61
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 910
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc961c24bed211d0800000000000000
+      internalID: -3381395504786662157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_62
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 913
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a0db2a93943eaf0800000000000000
+      internalID: -368370232621987280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_63
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 916
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f6ab4a8ba3dd4c40800000000000000
+      internalID: 5498283453802325744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_64
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 862
+        width: 45
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c923f50f7fa86d0800000000000000
+      internalID: -2987302791045538794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_65
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 862
+        width: 45
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af12220ed8e0add0800000000000000
+      internalID: -2476723754837598303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_66
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 862
+        width: 45
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78444fd9af59d2dd0800000000000000
+      internalID: -2509184513751104377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_67
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 862
+        width: 45
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624d0dd03288ece80800000000000000
+      internalID: -8156432190984367066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_68
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 826
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6299564e254669b80800000000000000
+      internalID: -8388406948749010650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_69
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 792
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215c579760fc75950800000000000000
+      internalID: 6437841819063928082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_70
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 792
+        width: 51
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a0224f774e91610800000000000000
+      internalID: 1592555147100293723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_71
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 792
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4bc51b2c83ac130800000000000000
+      internalID: 3587742462004475112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_72
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 792
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430fa42625fb01a20800000000000000
+      internalID: 3031132909777645620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_73
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 792
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a5c0bbc3ddd2d90800000000000000
+      internalID: -7120792182896961003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_74
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 792
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 905cac2317f4bc1f0800000000000000
+      internalID: -1023637142694607607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_75
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 757
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e4b566125d46ef0800000000000000
+      internalID: -115733350976893332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_76
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 757
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe26f62b71660c8f0800000000000000
+      internalID: -522305304811052305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_77
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 757
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7e2d99b13fe2100800000000000000
+      internalID: 85272742837020613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_78
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 757
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f550589bc55973c0800000000000000
+      internalID: -4361360431209490953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_79
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 757
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d569ae61785520f20800000000000000
+      internalID: 3387363908429452893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_80
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 722
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5626ee883ccb0f0800000000000000
+      internalID: -1099789216102849058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_81
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 722
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c0d6c0ffdd6cdcf0800000000000000
+      internalID: -226185072690671423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_82
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 722
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745e0a9ff5548a6f0800000000000000
+      internalID: -673211865779608249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_83
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 722
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2faa340d941c26f20800000000000000
+      internalID: 3414503990271126258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_84
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 693
+        width: 58
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef01d85e7e6278260800000000000000
+      internalID: 7099686115003404542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_85
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 693
+        width: 58
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d93ad66320695c30800000000000000
+      internalID: 4348612620368624089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_86
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 693
+        width: 58
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095ad61cc685a6890800000000000000
+      internalID: -7464056208288275056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_87
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 693
+        width: 58
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843eaae9c3fc67bd0800000000000000
+      internalID: -2632689072884489400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_88
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 659
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54c75a0117722040800000000000000
+      internalID: 4621387082707223645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_89
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 611
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ff4325d2f2fce30800000000000000
+      internalID: 4525888022229876500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_90
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 429
+        width: 182
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e804da2401dec710800000000000000
+      internalID: 1715538323903351009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_91
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 429
+        width: 182
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539806a0873aff8a0800000000000000
+      internalID: -6269112420310939339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_92
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 353
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2f9676c96857f20800000000000000
+      internalID: 3419787498365776546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_93
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 353
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86f1c35feb4e37c0800000000000000
+      internalID: -4089747920331344244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_94
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 304
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c3656610d12e510800000000000000
+      internalID: 1576854711382195335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_95
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 308
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ad37cd934b12f50800000000000000
+      internalID: 6854958268439321211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_96
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 300
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3cd7bd21976a3500800000000000000
+      internalID: 376727392073800765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_97
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 309
+        width: 56
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d730cdbc1ed19e0800000000000000
+      internalID: -1648913622861906618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_98
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 311
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64dd1ff964e78d2f0800000000000000
+      internalID: -947868879765250746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_99
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 304
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19f9edaf3b0cca10800000000000000
+      internalID: 1930930708363737373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_100
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 304
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af04e0dfec54c5a0800000000000000
+      internalID: -6501969776944607322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_101
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 304
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f376b10aa4972e60800000000000000
+      internalID: 7937476326157874161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_102
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 304
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abfd5ab31e246cd00800000000000000
+      internalID: 992554303017574330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_103
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 271
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c310d49b45db2e170800000000000000
+      internalID: 8206329642606199100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_104
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 271
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd89fd8f403ab1940800000000000000
+      internalID: 5267983430890526943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_105
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 242
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7cff956f72e73b70800000000000000
+      internalID: 8878814227177929850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_106
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 242
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8824d0577257610800000000000000
+      internalID: 1618243024796682454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_107
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 209
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f5d88d9c857f810800000000000000
+      internalID: 1799004200102616958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_108
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 176
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cccdb5f2f166bc50800000000000000
+      internalID: 6680634793383546055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_109
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 143
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec8ba4a11b5e4d20800000000000000
+      internalID: 3264646911225466082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_110
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 143
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc6c73b2f25dd3830800000000000000
+      internalID: 4052629638268569295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_111
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 143
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24161254b3391cbd0800000000000000
+      internalID: -2611644426126007998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_112
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 107
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae9959da5ae5cb20800000000000000
+      internalID: 3154184789957385891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_113
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 110
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743d6e3a56844f2b0800000000000000
+      internalID: -5551732839262268601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_114
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 110
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c4a323032692050800000000000000
+      internalID: 5776255956220005431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_115
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 107
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04717ff8982e31b0800000000000000
+      internalID: -5675053842854480882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_116
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 110
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d7fd96f887316a0800000000000000
+      internalID: -6479702881504101112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_117
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 111
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb0bf22dd0a71b350800000000000000
+      internalID: 6030735575805309116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_118
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 72
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3a125d534b801e0800000000000000
+      internalID: -2231335472060062730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_119
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 39
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cafca6a3cd9b21d0800000000000000
+      internalID: -3374430032143516989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_120
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 6
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eda42f679757dea0800000000000000
+      internalID: -5848109283200946716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_121
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 6
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbed7f043ed80e5d0800000000000000
+      internalID: -3035270141660635461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_122
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 8
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e63a1448941383db0800000000000000
+      internalID: -4812042010024107154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_123
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 14
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc8b3d02a641ae90800000000000000
+      internalID: -7016249082645869349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_124
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 11
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b247ce703b9d480800000000000000
+      internalID: -8873864744143672503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShovelKnight_spritesheet_2_125
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ee32731a49115e0800000000000000
+      internalID: -1940606544284225966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ShovelKnight_spritesheet_2_0: 1596075635722336734
+      ShovelKnight_spritesheet_2_1: -8380796104916771220
+      ShovelKnight_spritesheet_2_10: -5752720632175336233
+      ShovelKnight_spritesheet_2_100: -6501969776944607322
+      ShovelKnight_spritesheet_2_101: 7937476326157874161
+      ShovelKnight_spritesheet_2_102: 992554303017574330
+      ShovelKnight_spritesheet_2_103: 8206329642606199100
+      ShovelKnight_spritesheet_2_104: 5267983430890526943
+      ShovelKnight_spritesheet_2_105: 8878814227177929850
+      ShovelKnight_spritesheet_2_106: 1618243024796682454
+      ShovelKnight_spritesheet_2_107: 1799004200102616958
+      ShovelKnight_spritesheet_2_108: 6680634793383546055
+      ShovelKnight_spritesheet_2_109: 3264646911225466082
+      ShovelKnight_spritesheet_2_11: -1737773777064650715
+      ShovelKnight_spritesheet_2_110: 4052629638268569295
+      ShovelKnight_spritesheet_2_111: -2611644426126007998
+      ShovelKnight_spritesheet_2_112: 3154184789957385891
+      ShovelKnight_spritesheet_2_113: -5551732839262268601
+      ShovelKnight_spritesheet_2_114: 5776255956220005431
+      ShovelKnight_spritesheet_2_115: -5675053842854480882
+      ShovelKnight_spritesheet_2_116: -6479702881504101112
+      ShovelKnight_spritesheet_2_117: 6030735575805309116
+      ShovelKnight_spritesheet_2_118: -2231335472060062730
+      ShovelKnight_spritesheet_2_119: -3374430032143516989
+      ShovelKnight_spritesheet_2_12: -7672908526723730285
+      ShovelKnight_spritesheet_2_120: -5848109283200946716
+      ShovelKnight_spritesheet_2_121: -3035270141660635461
+      ShovelKnight_spritesheet_2_122: -4812042010024107154
+      ShovelKnight_spritesheet_2_123: -7016249082645869349
+      ShovelKnight_spritesheet_2_124: -8873864744143672503
+      ShovelKnight_spritesheet_2_125: -1940606544284225966
+      ShovelKnight_spritesheet_2_13: -464600554409299312
+      ShovelKnight_spritesheet_2_14: -179802492301337730
+      ShovelKnight_spritesheet_2_15: 4596672908129836528
+      ShovelKnight_spritesheet_2_16: 3400512568283307991
+      ShovelKnight_spritesheet_2_17: -8610630593187070834
+      ShovelKnight_spritesheet_2_18: 1328220583858002083
+      ShovelKnight_spritesheet_2_19: 3287679356548091967
+      ShovelKnight_spritesheet_2_2: 8609006419751362776
+      ShovelKnight_spritesheet_2_20: 2680573189007049313
+      ShovelKnight_spritesheet_2_21: -4125030064295772972
+      ShovelKnight_spritesheet_2_22: -8847292796905402838
+      ShovelKnight_spritesheet_2_23: 6204676807484954358
+      ShovelKnight_spritesheet_2_24: 8050242229429620343
+      ShovelKnight_spritesheet_2_25: -3275918884498216965
+      ShovelKnight_spritesheet_2_26: 9222754168199732734
+      ShovelKnight_spritesheet_2_27: 7893896870843301174
+      ShovelKnight_spritesheet_2_28: 7788405835912704399
+      ShovelKnight_spritesheet_2_29: -1565199279085667037
+      ShovelKnight_spritesheet_2_3: 7511711445017287511
+      ShovelKnight_spritesheet_2_30: 3058823489404434834
+      ShovelKnight_spritesheet_2_31: -1295423625171763978
+      ShovelKnight_spritesheet_2_32: 1819313077421515872
+      ShovelKnight_spritesheet_2_33: -2868341019204060580
+      ShovelKnight_spritesheet_2_34: 2727218693625870879
+      ShovelKnight_spritesheet_2_35: 2138295981165909930
+      ShovelKnight_spritesheet_2_36: 9155412731561922662
+      ShovelKnight_spritesheet_2_37: 7885380810012827951
+      ShovelKnight_spritesheet_2_38: 2194147162598589655
+      ShovelKnight_spritesheet_2_39: 2492045386036680166
+      ShovelKnight_spritesheet_2_4: 3748905842305408591
+      ShovelKnight_spritesheet_2_40: 51676471880354915
+      ShovelKnight_spritesheet_2_41: 7457081406871147533
+      ShovelKnight_spritesheet_2_42: 6614069558936199903
+      ShovelKnight_spritesheet_2_43: 2196918022372284707
+      ShovelKnight_spritesheet_2_44: -516193264433680334
+      ShovelKnight_spritesheet_2_45: 7381797572713800774
+      ShovelKnight_spritesheet_2_46: 7267982020595884948
+      ShovelKnight_spritesheet_2_47: 2459846919934405098
+      ShovelKnight_spritesheet_2_48: -5984910354196445186
+      ShovelKnight_spritesheet_2_49: 5159671284281563649
+      ShovelKnight_spritesheet_2_5: 8320167824801193712
+      ShovelKnight_spritesheet_2_50: 4702095361095161413
+      ShovelKnight_spritesheet_2_51: -4462226078129530008
+      ShovelKnight_spritesheet_2_52: 617365429938252553
+      ShovelKnight_spritesheet_2_53: 6932844585525940180
+      ShovelKnight_spritesheet_2_54: -3147401945211754178
+      ShovelKnight_spritesheet_2_55: -6052343493767928446
+      ShovelKnight_spritesheet_2_56: -7398418909504212074
+      ShovelKnight_spritesheet_2_57: -8315751164588700706
+      ShovelKnight_spritesheet_2_58: -7621407856678838911
+      ShovelKnight_spritesheet_2_59: 5490349678986430986
+      ShovelKnight_spritesheet_2_6: -8967666973867884625
+      ShovelKnight_spritesheet_2_60: 790521476147376769
+      ShovelKnight_spritesheet_2_61: -3381395504786662157
+      ShovelKnight_spritesheet_2_62: -368370232621987280
+      ShovelKnight_spritesheet_2_63: 5498283453802325744
+      ShovelKnight_spritesheet_2_64: -2987302791045538794
+      ShovelKnight_spritesheet_2_65: -2476723754837598303
+      ShovelKnight_spritesheet_2_66: -2509184513751104377
+      ShovelKnight_spritesheet_2_67: -8156432190984367066
+      ShovelKnight_spritesheet_2_68: -8388406948749010650
+      ShovelKnight_spritesheet_2_69: 6437841819063928082
+      ShovelKnight_spritesheet_2_7: -8383416275111079425
+      ShovelKnight_spritesheet_2_70: 1592555147100293723
+      ShovelKnight_spritesheet_2_71: 3587742462004475112
+      ShovelKnight_spritesheet_2_72: 3031132909777645620
+      ShovelKnight_spritesheet_2_73: -7120792182896961003
+      ShovelKnight_spritesheet_2_74: -1023637142694607607
+      ShovelKnight_spritesheet_2_75: -115733350976893332
+      ShovelKnight_spritesheet_2_76: -522305304811052305
+      ShovelKnight_spritesheet_2_77: 85272742837020613
+      ShovelKnight_spritesheet_2_78: -4361360431209490953
+      ShovelKnight_spritesheet_2_79: 3387363908429452893
+      ShovelKnight_spritesheet_2_8: 219106316840121404
+      ShovelKnight_spritesheet_2_80: -1099789216102849058
+      ShovelKnight_spritesheet_2_81: -226185072690671423
+      ShovelKnight_spritesheet_2_82: -673211865779608249
+      ShovelKnight_spritesheet_2_83: 3414503990271126258
+      ShovelKnight_spritesheet_2_84: 7099686115003404542
+      ShovelKnight_spritesheet_2_85: 4348612620368624089
+      ShovelKnight_spritesheet_2_86: -7464056208288275056
+      ShovelKnight_spritesheet_2_87: -2632689072884489400
+      ShovelKnight_spritesheet_2_88: 4621387082707223645
+      ShovelKnight_spritesheet_2_89: 4525888022229876500
+      ShovelKnight_spritesheet_2_9: 4577307029741929071
+      ShovelKnight_spritesheet_2_90: 1715538323903351009
+      ShovelKnight_spritesheet_2_91: -6269112420310939339
+      ShovelKnight_spritesheet_2_92: 3419787498365776546
+      ShovelKnight_spritesheet_2_93: -4089747920331344244
+      ShovelKnight_spritesheet_2_94: 1576854711382195335
+      ShovelKnight_spritesheet_2_95: 6854958268439321211
+      ShovelKnight_spritesheet_2_96: 376727392073800765
+      ShovelKnight_spritesheet_2_97: -1648913622861906618
+      ShovelKnight_spritesheet_2_98: -947868879765250746
+      ShovelKnight_spritesheet_2_99: 1930930708363737373
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

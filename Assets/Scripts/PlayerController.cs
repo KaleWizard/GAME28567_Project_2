@@ -5,45 +5,61 @@ using System.Collections.Generic;
 public class PlayerController : MonoBehaviour
 {
     [Header("Vertical Movement")]
-    [SerializeField] float apexHeight = 3;
-    [SerializeField] float apexTime = 1;
-    [SerializeField] float fallTime = 0.75f;
-    [SerializeField] float terminalVelocity = -8;
-    private float ascendGravity;
-    private float fallGravity;
+    public float apexHeight = 3;
+    public float apexTime = 1;
+    public float fallTime = 0.75f;
+    public float terminalVelocity = -8;
+    internal float ascendGravity;
+    internal float fallGravity;
 
-    private float jumpProgress = 0;
+    internal float jumpProgress = 0;
 
-    [SerializeField] float coyoteTime = 1.25f;
-    private float coyoteProgress = 0;
+    public float coyoteTime = 1.25f;
+    internal float coyoteProgress = 0;
 
     [Header("Horizontal Movement")]
-    [SerializeField] float maxHorizontalSpeed = 3; // Tiles per second
+    public float maxHorizontalSpeed = 3; // Tiles per second
 
-    [SerializeField] int framesToSpeed = 5;
-    [SerializeField] float accelModifier = 0.4f;
+    public int framesToSpeed = 5;
+    public float accelModifier = 0.4f;
 
-    [SerializeField] int framesToStop = 3;
-    [SerializeField] float decelModifier = 1.8f;
+    public int framesToStop = 3;
+    public float decelModifier = 1.8f;
 
-    [SerializeField] int framesToTurn = 2;
-    [SerializeField] float turnModifier = 0.5f;
+    public int framesToTurn = 2;
+    public float turnModifier = 0.5f;
+
+    [Header("Dash")]
+    public float dashSpeed = 6;
+    public float dashBaseDist = 1;
+    public float dashControlDist = 1;
+
+    internal bool dashInput = false;
 
     [Header("Ground Check")]
-    [SerializeField] int raycastCount = 12;
-    [SerializeField] float raycastDist = 0.05f;
-    [SerializeField] float raycastMargins = 0.01f;
+    public int raycastCount = 12;
+    public float raycastDist = 0.05f;
+    public float raycastMargins = 0.01f;
 
-    Rigidbody2D rb;
+    internal Rigidbody2D rb;
 
-    BoxCollider2D collider;
+    new internal BoxCollider2D collider;
 
-    FacingDirection facing = FacingDirection.right; // Default facing direction
+    internal FacingDirection facing = FacingDirection.right; // Default facing direction
 
     public enum FacingDirection
     {
         left, right
     }
+
+    // Player's current state
+    internal BaseState state;
+
+    // Player states
+    internal BasicMovementState BasicMovementState = new();
+    internal DashingState DashingState = new();
+    internal ClimbingState ClimbingState = new();
+    internal BouncyBallState BouncyBallState = new();
 
     // Start is called before the first frame update
     void Start()
@@ -52,103 +68,32 @@ public class PlayerController : MonoBehaviour
         collider = GetComponent<BoxCollider2D>();
         ascendGravity = -2 * apexHeight / (apexTime * apexTime);
         fallGravity = -2 * apexHeight / (fallTime * fallTime);
+
+        BasicMovementState.Initialize(this);
+        DashingState.Initialize(this);
+        ClimbingState.Initialize(this);
+        BouncyBallState.Initialize(this);
+
+        state = BasicMovementState;
+        state.EnterState();
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftShift)) dashInput = true;
     }
 
     void FixedUpdate()
     {
         Vector2 playerInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        MovementUpdate(playerInput);
+        state.Update(playerInput);
     }
 
-    private void MovementUpdate(Vector2 playerInput)
+    public void SwapState(BaseState newState)
     {
-        // Horizontal Movement
-        if (playerInput.x != 0)
-            Accelerate(playerInput);
-        else
-            Decelerate();
-
-        // Vertical Movement
-        if (playerInput.y == 1)
-            Jump();
-        else
-            NotJumping();
-
-        Fall();
-        
-    }
-
-    private void Accelerate(Vector2 playerInput)
-    {
-        // Get the direction player wants to move in
-        float sign = Mathf.Sign(playerInput.x);
-
-        // Find current time-position of x velocity
-        float timePosition = CurrentAccelTime(rb.linearVelocityX * sign);
-        
-        // Find next position of x velocity
-        float newSpeed = CalculateAccelSpeed(timePosition + playerInput.x * sign);
-
-        // Set rigidbody's velocity
-        rb.linearVelocityX = newSpeed * sign;
-    }
-
-    private void Decelerate()
-    {
-        // Get the direction player wants to move in
-        float sign = Mathf.Sign(rb.linearVelocityX);
-
-        // Find current time-position of x velocity
-        float timePosition = CurrentDecelTime(rb.linearVelocityX * sign);
-        
-        // Find next position of x velocity
-        float newSpeed = CalculateDecelSpeed(timePosition + 1);
-
-        // Set rigidbody's velocity
-        rb.linearVelocityX = newSpeed * sign;
-    }
-
-    private void Jump()
-    {
-        if (IsGrounded() || coyoteProgress < coyoteTime)
-        {
-            // Set initial vertical velocity
-            rb.linearVelocityY = 2 * apexHeight / apexTime;
-            // Reset jump progress
-            jumpProgress = 0;
-            // Ensure coyote time doesn't retrigger
-            coyoteProgress += coyoteTime;
-        }
-    }
-
-    private void NotJumping()
-    {
-        // Player isn't jumping, so set jumpProgress to "completed" time-value
-        jumpProgress = apexTime;
-
-        // Increase coyote time progress
-        coyoteProgress += Time.fixedDeltaTime;
-        // If player is on the ground, reset coyote time
-        if (IsGrounded())
-        {
-            coyoteProgress = 0;
-        }
-    }
-
-    private void Fall()
-    {
-        // If player is still jumping, use ascension gravity
-        if (jumpProgress < apexTime)
-            rb.linearVelocityY += ascendGravity * Time.fixedDeltaTime;
-        // Otherwise use fast-falling gravity
-        else
-            rb.linearVelocityY += fallGravity * Time.fixedDeltaTime;
-
-        // Increase jump time
-        jumpProgress += Time.fixedDeltaTime;
-
-        // Limit falling speed to terminalVelocity
-        rb.linearVelocityY = Mathf.Max(rb.linearVelocityY, terminalVelocity);
+        state.ExitState();
+        state = newState;
+        state.EnterState();
     }
 
     public bool IsWalking()
@@ -189,51 +134,12 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private float CurrentAccelTime(float speed)
-    {
-        return 
-            speed < maxHorizontalSpeed ?
-                speed >= 0 ?
-                // Normal acceleration curve
-                InverseSimplePolynomial(speed, maxHorizontalSpeed, framesToSpeed, accelModifier) :
-                // Turning acceleration curve
-                -InverseSimplePolynomial(-speed, maxHorizontalSpeed, Mathf.Min(framesToTurn, framesToStop), turnModifier) :
-            framesToSpeed;
-    }
-
-    private float CurrentDecelTime(float speed)
-    {
-        // Deceleration curve
-        return 
-            Mathf.Abs(speed) > 0.05f ?
-            -InverseSimplePolynomial(speed, maxHorizontalSpeed, framesToStop, decelModifier) + framesToStop:
-            framesToStop;
-    }
-
-    private float CalculateAccelSpeed(float time)
-    {
-        return 
-            time <= framesToSpeed ?
-                time >= 0 ?
-                SimplePolynomial(time, maxHorizontalSpeed, framesToSpeed, accelModifier) :
-                SimplePolynomial(-time, -maxHorizontalSpeed, Mathf.Min(framesToTurn, framesToStop), turnModifier) :
-            maxHorizontalSpeed;
-    }
-
-    private float CalculateDecelSpeed(float time)
-    {
-        return 
-            time <= framesToStop ?
-            SimplePolynomial(-time + framesToStop, maxHorizontalSpeed, framesToStop, decelModifier) :
-            0;
-    }
-
-    private float SimplePolynomial(float value, float coef, float length, float exp)
+    public float SimplePolynomial(float value, float coef, float length, float exp)
     {
         return coef * Mathf.Pow(value / length, exp);
     }
 
-    private float InverseSimplePolynomial(float value, float coef, float length, float exp)
+    public float InverseSimplePolynomial(float value, float coef, float length, float exp)
     {
         return length * Mathf.Pow(value / coef, 1 / exp);
     }
