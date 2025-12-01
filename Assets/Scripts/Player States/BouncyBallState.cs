@@ -10,7 +10,7 @@ public class BouncyBallState : BaseState
     {
 
     }
-    public override void Update(Vector2 playerInput)
+    public override void Update(PlayerInput playerInput)
     {
 
     }

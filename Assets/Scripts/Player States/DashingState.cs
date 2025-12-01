@@ -16,9 +16,9 @@ public class DashingState : BaseState
         rb.linearVelocityY = 0;
         direction = parent.facing == PlayerController.FacingDirection.right ? Vector2.right : Vector2.left; 
     }
-    public override void Update(Vector2 playerInput)
+    public override void Update(PlayerInput playerInput)
     {
-        if (Vector2.Dot(playerInput, direction) <= 0) parent.SwapState(parent.BasicMovementState);
+        if (Vector2.Dot(playerInput.direction, direction) <= 0) parent.SwapState(parent.BasicMovementState);
 
         rb.linearVelocity = direction * parent.dashSpeed;
     }

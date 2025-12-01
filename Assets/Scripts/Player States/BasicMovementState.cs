@@ -10,27 +10,25 @@ public class BasicMovementState : BaseState
     {
 
     }
-    public override void Update(Vector2 playerInput)
+    public override void Update(PlayerInput playerInput)
     {
         // Horizontal Movement
-        if (playerInput.x != 0)
-            Accelerate(playerInput);
+        if (playerInput.direction.x != 0)
+            Accelerate(playerInput.direction);
         else
             Decelerate();
 
         // Vertical Movement
-        if (playerInput.y == 1)
+        if (playerInput.jumpInput)
             Jump();
-        else
+
+        if (playerInput.direction.y != 1)
             NotJumping();
 
         Fall();
 
-        if (parent.dashInput)
-        {
-            parent.dashInput = false;
+        if (playerInput.dashInput)
             parent.SwapState(parent.DashingState);
-        }
     }
     public override void ExitState()
     {

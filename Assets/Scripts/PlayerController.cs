@@ -41,11 +41,16 @@ public class PlayerController : MonoBehaviour
     public float raycastDist = 0.05f;
     public float raycastMargins = 0.01f;
 
+    ////////////////////////
+    // General properties //
+    ////////////////////////
     internal Rigidbody2D rb;
 
     new internal BoxCollider2D collider;
 
     internal FacingDirection facing = FacingDirection.right; // Default facing direction
+
+    private PlayerInput input = new();
 
     public enum FacingDirection
     {
@@ -80,13 +85,19 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift)) dashInput = true;
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W))
+            input.jumpInput = true;
+        if (Input.GetKeyDown(KeyCode.LeftShift)) input.dashInput = true;
+        if (Input.GetKeyDown(KeyCode.B)) input.toBallInput = true;
     }
 
     void FixedUpdate()
     {
-        Vector2 playerInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        state.Update(playerInput);
+        input.direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.W))
+            input.direction.y = 1;
+        state.Update(input);
+        ResetInput();
     }
 
     public void SwapState(BaseState newState)
@@ -143,4 +154,17 @@ public class PlayerController : MonoBehaviour
     {
         return length * Mathf.Pow(value / coef, 1 / exp);
     }
+
+    private void ResetInput()
+    {
+        input = new();
+    }
+}
+
+public struct PlayerInput
+{
+    public Vector2 direction;
+    public bool jumpInput;
+    public bool dashInput;
+    public bool toBallInput;
 }
