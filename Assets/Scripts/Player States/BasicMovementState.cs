@@ -8,7 +8,8 @@ public class BasicMovementState : BaseState
     }
     public override void EnterState()
     {
-
+        if (parent.exitLadderJump) Jump();
+        parent.exitLadderJump = false;
     }
     public override void Update(PlayerInput playerInput)
     {
@@ -29,6 +30,9 @@ public class BasicMovementState : BaseState
 
         if (playerInput.dashInput)
             parent.SwapState(parent.DashingState);
+
+        if (parent.IsInLadder() && playerInput.direction.y != 0 && parent.rb.linearVelocityY <= 0) 
+            parent.SwapState(parent.ClimbingState);
     }
     public override void ExitState()
     {
@@ -67,7 +71,7 @@ public class BasicMovementState : BaseState
 
     private void Jump()
     {
-        if (parent.IsGrounded() || parent.coyoteProgress < parent.coyoteTime)
+        if (parent.IsGrounded() || parent.coyoteProgress < parent.coyoteTime || parent.exitLadderJump)
         {
             // Set initial vertical velocity
             parent.rb.linearVelocityY = 2 * parent.apexHeight / parent.apexTime;

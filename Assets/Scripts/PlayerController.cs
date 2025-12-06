@@ -4,6 +4,17 @@ using System.Collections.Generic;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("General Properties")]
+    internal Rigidbody2D rb;
+
+    new internal BoxCollider2D collider;
+
+    internal FacingDirection facing = FacingDirection.right; // Default facing direction
+
+    private PlayerInput input = new();
+
+    public SpriteRenderer spriteRenderer;
+
     [Header("Vertical Movement")]
     public float apexHeight = 3;
     public float apexTime = 1;
@@ -30,32 +41,38 @@ public class PlayerController : MonoBehaviour
     public float turnModifier = 0.5f;
 
     [Header("Dash")]
+    public float dashTotalDist = 3;
+
     public int dashFramesToSpeed = 3;
     public float dashAccelModifier = 0.5f;
-    public float dashTotalDist = 3;
+
     public int dashFramesTotal = 9;
     public int dashFramesToControl = 3;
 
     public BoxCollider2D terrainCheckCollider;
     public float dashDistAfterTerrain = 0.25f;
 
-    internal bool dashInput = false;
+    [Header("Ladder Movement")]
+    public float ladderMaxSpeedX = 0.8f;
+    public float ladderMaxSpeedY = 2.5f;
+
+    public int ladderFramesToSpeed = 3;
+    public float ladderAccelModifier = 0.5f;
+
+    public int ladderFramesToStop = 3;
+    public float ladderDecelModifier = 0.5f;
+
+    internal bool exitLadderJump = false;
+
+    [Header("Bouncy Ball Transformation")]
+    public CircleCollider2D ballCollider;
+    public float ballTerminalVelocity = -16;
+    public SpriteRenderer ballSpriteRenderer;
 
     [Header("Ground Check")]
     public int raycastCount = 12;
     public float raycastDist = 0.05f;
     public float raycastMargins = 0.01f;
-
-    ////////////////////////
-    // General properties //
-    ////////////////////////
-    internal Rigidbody2D rb;
-
-    new internal BoxCollider2D collider;
-
-    internal FacingDirection facing = FacingDirection.right; // Default facing direction
-
-    private PlayerInput input = new();
 
     public enum FacingDirection
     {
@@ -132,6 +149,15 @@ public class PlayerController : MonoBehaviour
             RaycastHit2D hit = Physics2D.Linecast(start, start + Vector2.down * raycastDist, LayerMask.GetMask("Ground"));
             if (hit)
                 return true;
+        }
+        return false;
+    }
+
+    public bool IsInLadder()
+    {
+        foreach (BoxCollider2D ladder in LadderRegister.Instance.ladderColliders)
+        {
+            if (ladder.bounds.Contains(transform.position)) return true;
         }
         return false;
     }

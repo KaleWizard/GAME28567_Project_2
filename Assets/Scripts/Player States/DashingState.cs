@@ -82,6 +82,6 @@ public class DashingState : BaseState
 
     private bool IsInTerrain()
     {
-        return parent.terrainCheckCollider.IsTouchingLayers(Physics2D.GetLayerCollisionMask(8));
+        return parent.terrainCheckCollider.IsTouchingLayers(Physics2D.GetLayerCollisionMask(8)); // Ground layer == 8
     }
 }
