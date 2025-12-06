@@ -30,9 +30,14 @@ public class PlayerController : MonoBehaviour
     public float turnModifier = 0.5f;
 
     [Header("Dash")]
-    public float dashSpeed = 6;
-    public float dashBaseDist = 1;
-    public float dashControlDist = 1;
+    public int dashFramesToSpeed = 3;
+    public float dashAccelModifier = 0.5f;
+    public float dashTotalDist = 3;
+    public int dashFramesTotal = 9;
+    public int dashFramesToControl = 3;
+
+    public BoxCollider2D terrainCheckCollider;
+    public float dashDistAfterTerrain = 0.25f;
 
     internal bool dashInput = false;
 
@@ -94,7 +99,7 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         input.direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.Space))
             input.direction.y = 1;
         state.Update(input);
         ResetInput();
