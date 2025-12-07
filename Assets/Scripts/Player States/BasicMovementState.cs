@@ -33,6 +33,9 @@ public class BasicMovementState : BaseState
 
         if (parent.IsInLadder() && playerInput.direction.y != 0 && parent.rb.linearVelocityY <= 0) 
             parent.SwapState(parent.ClimbingState);
+
+        if (playerInput.toBallInput)
+            parent.SwapState(parent.BouncyBallState);
     }
     public override void ExitState()
     {

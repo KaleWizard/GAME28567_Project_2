@@ -65,9 +65,12 @@ public class PlayerController : MonoBehaviour
     internal bool exitLadderJump = false;
 
     [Header("Bouncy Ball Transformation")]
-    public CircleCollider2D ballCollider;
+    public float ballTimeToTerminalVelocity = 2;
     public float ballTerminalVelocity = -16;
+
+    public CircleCollider2D ballCollider;
     public SpriteRenderer ballSpriteRenderer;
+    public PhysicsMaterial2D ballMaterial;
 
     [Header("Ground Check")]
     public int raycastCount = 12;
