@@ -2,13 +2,17 @@ using UnityEngine;
 
 public class ClimbingState : BaseState
 {
+    int climbingHash;
+
     public override void Initialize(PlayerController parent)
     {
         this.parent = parent;
+        climbingHash = Animator.StringToHash("ToClimbing");
     }
     public override void EnterState()
     {
         parent.rb.linearVelocityY = 0;
+        parent.animator.SetTrigger(climbingHash);
     }
     public override void Update(PlayerInput playerInput)
     {
@@ -24,11 +28,13 @@ public class ClimbingState : BaseState
         else
             DecelerateY();
 
+        parent.animator.speed = playerInput.direction.x != 0 || playerInput.direction.y != 0? 1 : 0;
+
         CheckExitState(playerInput);
     }
     public override void ExitState()
     {
-
+        parent.animator.speed = 1;
     }
 
     void CheckExitState(PlayerInput playerInput)

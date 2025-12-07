@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     internal Rigidbody2D rb;
 
     new internal BoxCollider2D collider;
+    internal Animator animator;
 
     internal FacingDirection facing = FacingDirection.right; // Default facing direction
 
@@ -96,6 +97,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         collider = GetComponent<BoxCollider2D>();
+        animator = GetComponent<Animator>();
         ascendGravity = -2 * apexHeight / (apexTime * apexTime);
         fallGravity = -2 * apexHeight / (fallTime * fallTime);
 

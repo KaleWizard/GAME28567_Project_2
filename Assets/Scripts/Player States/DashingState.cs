@@ -14,10 +14,13 @@ public class DashingState : BaseState
     bool enteredTerrain = false;
     float lastTerrainPosX; // Tracks last x position while the player was in terrain
 
+    int dashHash;
+
     public override void Initialize(PlayerController parent)
     {
         this.parent = parent;
         rb = parent.rb;
+        dashHash = Animator.StringToHash("ToDashing");
     }
     public override void EnterState()
     {
@@ -28,6 +31,8 @@ public class DashingState : BaseState
 
         parent.collider.enabled = false;
         enteredTerrain = false;
+
+        parent.animator.SetTrigger(dashHash);
     }
     public override void Update(PlayerInput playerInput)
     {

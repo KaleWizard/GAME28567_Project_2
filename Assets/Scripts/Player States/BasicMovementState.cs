@@ -2,14 +2,18 @@ using UnityEngine;
 
 public class BasicMovementState : BaseState
 {
+    int baseHash;
+
     public override void Initialize(PlayerController parent)
     {
         this.parent = parent;
+        baseHash = Animator.StringToHash("ToBase");
     }
     public override void EnterState()
     {
         if (parent.exitLadderJump) Jump();
         parent.exitLadderJump = false;
+        parent.animator.SetTrigger(baseHash);
     }
     public override void Update(PlayerInput playerInput)
     {
